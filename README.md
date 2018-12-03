@@ -19,20 +19,19 @@ RomeoMotor(motor)
 # move()
 ### description:
 * Makes the motor move a particular speed and direction.
+* There is a dead range of +-20 where the motor won't move.
+* If a value greater than +127 or less than -127 is passed in, then they will be reduced to 100 or -100.
 ### syntax:
 ```c
 move(speed)
 ```
 ### parameters:
 * speed - an integer from -127 to +127 to make the motor move
-..* ```127``` is maximum reverse
-..* ```0``` is not moving
-..* ```-127``` is minimum forward
+  * ```127``` is maximum reverse
+  * ```0``` is not moving
+  * ```-127``` is minimum forward
 ### returns:
 * none
-### notes:
-* There is a dead range of +-20 where the motor won't move.
-* If a value greater than +127 or less than -127 is passed in, then they will be reduced to 100 or -100.
 
 
 # flip()
