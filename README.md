@@ -18,7 +18,9 @@ RomeoMotor(int motor)
 ## description:
 * Makes the motor move a particular speed and direction.
 ## syntax:
-    **move(int speed)**
+```c
+move(int speed)
+```
 ## parameters:
 * speed - an integer from -127 to +127 to make the motor move
  *-127 is maximum reverse
@@ -36,7 +38,9 @@ RomeoMotor(int motor)
 * This is very useful for robot drivetrains that have motors facing in opposite direction.
 * You can use the same speed values in move() to go forward, instead of turning.
 ## syntax:
-    **flip(boolean isFlipped)**
+```c
+flip(boolean isFlipped)
+```
 ## parameters:
 * isFlipped - true or false
  ## returns:
@@ -47,7 +51,9 @@ RomeoMotor(int motor)
 * The kill() method stops the motor from moving the rest of the program.
 * The only way to regain functionality of the motor is to reset the Arduino.
 ## syntax:
-    **kill()**
+```c
+kill()
+```
  ## parameters:
  * none
  ## returns:
