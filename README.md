@@ -10,10 +10,10 @@ It was inspired by Carnegie Mellon's Robotics Academy's work on RobotC for the V
 * A RomeoMotor object must be constructed to use one of the two motor ports provided on the DFRobot Romeo board.
 ### syntax:
 ```c
-RomeoMotor(int motor)
+RomeoMotor(motor)
 ```
 ### parameters:
-* motor - the number of the motor, 1 or 2, indicating which motor (M1 or M2) is used.
+* motor - 1 or 2, the number of the motor used, corresponding to M1 or M2 on the Romeo board.
 
 
 # move()
@@ -21,7 +21,7 @@ RomeoMotor(int motor)
 * Makes the motor move a particular speed and direction.
 ### syntax:
 ```c
-move(int speed)
+move(speed)
 ```
 ### parameters:
 * speed - an integer from -127 to +127 to make the motor move
@@ -42,15 +42,15 @@ move(int speed)
 * You can use the same speed values in move() to go forward, instead of turning.
 ### syntax:
 ```c
-flip(boolean isFlipped)
+flip(isFlipped)
 ```
 ### parameters:
-* isFlipped - true or false
+* isFlipped - ```c true ``` or ```c false```
 ### returns:
  * none
  
  
-# void kill()
+# kill()
 ### description:
 * The kill() method stops the motor from moving the rest of the program.
 * The only way to regain functionality of the motor is to reset the Arduino.
