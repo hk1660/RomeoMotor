@@ -13,7 +13,7 @@ It was inspired by Carnegie Mellon's Robotics Academy's work on RobotC for the V
 RomeoMotor(motor)
 ```
 ### parameters:
-* motor - 1 or 2, the number of the motor used, corresponding to M1 or M2 on the Romeo board.
+* motor - ```1``` or ```2```, the number of the motor used, corresponding to M1 or M2 on the Romeo board.
 
 
 # move()
@@ -25,11 +25,11 @@ move(speed)
 ```
 ### parameters:
 * speed - an integer from -127 to +127 to make the motor move
- *-127 is maximum reverse
- * 0 is not moving
- * +127 is maximum forward
+..* ```127``` is maximum reverse
+..* ```0``` is not moving
+..* ```-127``` is minimum forward
 ### returns:
- * none
+* none
 ### notes:
 * There is a dead range of +-20 where the motor won't move.
 * If a value greater than +127 or less than -127 is passed in, then they will be reduced to 100 or -100.
@@ -45,7 +45,7 @@ move(speed)
 flip(isFlipped)
 ```
 ### parameters:
-* isFlipped - ```c true ``` or ```c false```
+* isFlipped - ```true``` or ```false```
 ### returns:
  * none
  
