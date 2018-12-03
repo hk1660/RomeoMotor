@@ -8,7 +8,9 @@ It was inspired by Carnegie Mellon's Robotics Academy's work on RobotC for the V
 ## description:
 * A RomeoMotor object must be constructed to use one of the two motor ports provided on the DFRobot Romeo board.
 ## syntax:
-    **RomeoMotor(int motor)**
+```c
+RomeoMotor(int motor)
+```
 ## parameters:
 * motor - the number of the motor, 1 or 2, indicating which motor (M1 or M2) is used.
 
