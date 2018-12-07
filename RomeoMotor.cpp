@@ -70,14 +70,15 @@ void RomeoMotor::flip(boolean flip)
 
 void RomeoMotor::shutDown()
 {
-   int E1 = 5; //M1 Speed Control
-  int E2 = 6; //M2 Speed Control
+  //int E1 = 5; //M1 Speed Control
+  //int E2 = 6; //M2 Speed Control
   
-    _motor = 0;
+  move(0);
+  _motor = 0;
     
-  if(_motor == 1){
-    analogWrite(E1, 0);
-  } else if(_motor == 2){
-    analogWrite(E2, 0);
-  }
+  //if(_motor == 1){
+  //  analogWrite(E1, 0);
+  //} else if(_motor == 2){
+  //  analogWrite(E2, 0);
+  //}
 }
