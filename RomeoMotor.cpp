@@ -77,7 +77,8 @@ void RomeoMotor::shutDown()
     analogWrite(E1, 0);
   } else if(_motor == 2){
     analogWrite(E2, 0);
-    
-  _motor = 0;
   }
+
+  _motor = 0;
+
 }
