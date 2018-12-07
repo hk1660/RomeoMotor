@@ -68,7 +68,7 @@ void RomeoMotor::flip(boolean flip)
 }
 
 
-void RomeoMotor::kill()
+void RomeoMotor::shutDown()
 {
    int E1 = 5; //M1 Speed Control
   int E2 = 6; //M2 Speed Control

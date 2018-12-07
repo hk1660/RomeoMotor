@@ -14,7 +14,7 @@ RomeoMotor	KEYWORD1
 
 move	KEYWORD2
 flip	KEYWORD2
-kill	KEYWORD2
+shutDown	KEYWORD2
 
 #######################################
 # Instances (KEYWORD2)

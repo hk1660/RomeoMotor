@@ -30,8 +30,8 @@ void loop() {
   delay(2000);
 
   //disable the motors
-  right.kill();
-  left.kill();
+  right.shutDown();
+  left.shutDown();
   
 }
 

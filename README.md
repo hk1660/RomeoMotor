@@ -49,13 +49,13 @@ flip(isFlipped)
  * none
  
  
-# kill()
+# shutDown()
 ### description:
-* The kill() method stops the motor from moving the rest of the program.
+* The shutDown() method stops the motor from moving the rest of the program.
 * The only way to regain functionality of the motor is to reset the Arduino.
 ### syntax:
 ```c
-kill()
+shutDown()
 ```
  ### parameters:
  * none
