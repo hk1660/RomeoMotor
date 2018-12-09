@@ -1,5 +1,5 @@
-# RomeoMotor Library v1.05
-12/3/2018
+# RomeoMotor Library v1.06
+12/7/2018
 
 This library provides functions to control an Arduino robot using the DFRobot Romeo BLE board.
 It was inspired by Carnegie Mellon's Robotics Academy's work on RobotC for the VEX Controls system.
