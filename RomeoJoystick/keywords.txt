@@ -1,0 +1,37 @@
+#######################################
+# Syntax Coloring Map For RomeoJoystick
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+RomeoJoystick	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+button	KEYWORD2
+joypad	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ANDROID LITERAL1
+IPHONE  ITERAL1
+UP  LITERAL1
+DOWN    LITERAL1
+RIGHT   LITERAL1
+LEFT    LITERAL1
+TOP LITERAL1
+BOTTOM  LITERAL1
+X   LITERAL1
+Y   LITERAL1
+
+
